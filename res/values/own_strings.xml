@@ -738,6 +738,7 @@
 
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">View or change app permissions</string>
+    <string name="kernel_tweaker_title">performance</string>
 
     <!-- Setting checkbox summary when device is in Charging mode -->
     <string name="enable_adb_summary_charging">Device is in Charging mode, USB debugging is disabled</string>
@@ -786,24 +787,23 @@
     <string name="protected_apps">Protected apps</string>
     <string name="saving_protected_components">Saving component state</string>
 
-	<!-- long press back to kill configurable timeout -->
-	<string name="kill_app_longpress_timeout_title">Long press timeout</string>
-	<string name="timeout_2000">2 seconds (default)</string>
-	<string name="timeout_1500">1,5 seconds</string>
-	<string name="timeout_1000">1 second</string>
-	<string name="timeout_500">0,5 second</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Long press timeout</string>
+    <string name="timeout_2000">2 seconds (default)</string>
+    <string name="timeout_1500">1,5 seconds</string>
+    <string name="timeout_1000">1 second</string>
+    <string name="timeout_500">0,5 second</string>
 
-	<!-- Device CPU/MEM info -->
-	<string name="cpu_info">CPU Info</string>
-	<string name="device_cpu_default">ARMv7 Processor rev 10 (v71)</string>
-	<string name="mem_info">Memory info</string>
-	<string name="device_mem_default">750 MB</string>
+    <!-- Device CPU/MEM info -->
+    <string name="cpu_info">CPU Info</string>
+    <string name="device_cpu_default">ARMv7 Processor rev 10 (v71)</string>
+    <string name="mem_info">Memory info</string>
+    <string name="device_mem_default">750 MB</string>
 
-	<!-- SuperSU header name - the app hides itself from launcher based on this resource name
-	being present in com.android.settings -->
-	<string name="supersu_title" translatable="false">SuperSU</string>
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title" translatable="false">SuperSU</string>
 
-	<!-- Own-ifyzations -->
-	<string name="own_ifyzations_settings_title" translatable="false">Own-Ifyzations</string>
+    <!-- Own-ifyzations -->
+    <string name="own_ifyzations_settings_title" translatable="false">Own-Ifyzations</string>
 
 </resources>
