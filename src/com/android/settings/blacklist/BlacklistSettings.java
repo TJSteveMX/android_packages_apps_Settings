@@ -148,6 +148,7 @@ public class BlacklistSettings extends ListFragment
         switch (item.getItemId()) {
             case R.id.blacklist_prefs:
                 SettingsActivity pa = (SettingsActivity) getActivity();
+                SubSettings pa = (SubSettings) getActivity();
                 pa.startPreferencePanel(BlacklistPreferences.class.getCanonicalName(), null,
                         0, null, this, 0);
                 return true;
@@ -160,6 +161,7 @@ public class BlacklistSettings extends ListFragment
     public void onStart() {
         super.onStart();
         final SettingsActivity activity = (SettingsActivity) getActivity();
+        final SubSettings activity = (SubSettings) getActivity();
         mEnabledSwitch = new BaseSystemSettingSwitchBar(activity, activity.getSwitchBar(),
                 Settings.System.PHONE_BLACKLIST_ENABLED, true, this);
     }
@@ -169,6 +171,7 @@ public class BlacklistSettings extends ListFragment
         super.onResume();
 
         final SettingsActivity activity = (SettingsActivity) getActivity();
+        final SubSettings activity = (SubSettings) getActivity();
         if (mEnabledSwitch != null) {
             mEnabledSwitch.resume(activity);
         }
