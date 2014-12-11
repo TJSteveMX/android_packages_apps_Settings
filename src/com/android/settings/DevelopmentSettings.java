@@ -254,10 +254,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private CheckBoxPreference mShowAllANRs;
     private CheckBoxPreference mKillAppLongpressBack;
-<<<<<<< HEAD
     private ListPreference mKillAppLongpressTimeout;
-=======
->>>>>>> cm/cm-12.0
 
     private PreferenceScreen mProcessStats;
     private ListPreference mRootAccess;
@@ -410,15 +407,12 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
         mKillAppLongpressBack = findAndInitCheckboxPref(KILL_APP_LONGPRESS_BACK);
 
-<<<<<<< HEAD
 		// Back long press timeout
 		mKillAppLongpressTimeout = addListPreference(KILL_APP_LONGPRESS_TIMEOUT);
 		int killAppLongpressTimeout = Settings.Secure.getIntForUser(getActivity().getContentResolver(),
 			Settings.Secure.KILL_APP_LONGPRESS_TIMEOUT, 2000, UserHandle.USER_CURRENT);
 		mKillAppLongpressTimeout.setOnPreferenceChangeListener(this);
 
-=======
->>>>>>> cm/cm-12.0
         Preference hdcpChecking = findPreference(HDCP_CHECKING_KEY);
         if (hdcpChecking != null) {
             mAllPrefs.add(hdcpChecking);
@@ -557,10 +551,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         }
         mSwitchBar.show();
         updateKillAppLongpressBackOptions();
-<<<<<<< HEAD
         updateKillAppLongpressTimeoutOptions();
-=======
->>>>>>> cm/cm-12.0
     }
 
     @Override
@@ -810,7 +801,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mKillAppLongpressBack.setChecked(Settings.Secure.getInt(
             getActivity().getContentResolver(), Settings.Secure.KILL_APP_LONGPRESS_BACK, 0) != 0);
     }
-<<<<<<< HEAD
  
 	private void writeKillAppLongpressTimeoutOptions(Object newValue) {
 		int index = mKillAppLongpressTimeout.findIndexOfValue((String) newValue);
@@ -838,8 +828,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 		mKillAppLongpressTimeout.setValueIndex(0);
 		mKillAppLongpressTimeout.setSummary(mKillAppLongpressTimeout.getEntries()[0]);
 	}
-=======
->>>>>>> cm/cm-12.0
 
     private void updatePasswordSummary() {
         try {
@@ -1761,12 +1749,9 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         } else if (preference == mSimulateColorSpace) {
             writeSimulateColorSpace(newValue);
             return true;
-<<<<<<< HEAD
 		} else if (preference == mKillAppLongpressTimeout) {
 			writeKillAppLongpressTimeoutOptions(newValue);
 			return true;
-=======
->>>>>>> cm/cm-12.0
         } else if (preference == mRootAccess) {
             if ("0".equals(SystemProperties.get(ROOT_ACCESS_PROPERTY, "1"))
                     && !"0".equals(newValue)) {
