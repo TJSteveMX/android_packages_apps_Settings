@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!--
+     Copyright (C) 2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
      limitations under the License.
 -->
 
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,22 +25,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-        <android.support.v4.view.PagerTabStrip
-                android:id="@+id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top"
-                android:textAppearance="@style/TextAppearance.PagerTabs"
-                android:paddingStart="@dimen/pager_tabs_padding"
-                android:paddingEnd="@dimen/pager_tabs_padding">
-        </android.support.v4.view.PagerTabStrip>
+
     </android.support.v4.view.ViewPager>
+
+    <include layout="@layout/fab" />
 
     <TextView
         android:id="@+id/empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/profile_empty_list_profiles_off"
+        android:layout_centerInParent="true"
         android:gravity="center" />
 
-</LinearLayout>
+</RelativeLayout>
