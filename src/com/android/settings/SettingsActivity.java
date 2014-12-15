@@ -1200,6 +1200,18 @@ public class SettingsActivity extends Activity
                 } else if (id == R.id.superuser_settings) {
                     if (!DevelopmentSettings.isRootForAppsEnabled()) {
                         removeTile = true;
+					} else {
+						// Check if SuperSU is installed
+						int suversion = 0;
+						try {
+							suversion = getPackageManager().getPackageInfo(
+								"eu.chainfire.supersu", 0).versionCode;
+						} catch (PackageManager.NameNotFoundException e) {
+							suversion = 0;
+						}
+						if (suversion != 0) {
+							removeTile = true;
+						}
                     }
                 } else if (id == R.id.development_settings) {
                     if (!showDev || um.hasUserRestriction(
@@ -1212,6 +1224,17 @@ public class SettingsActivity extends Activity
                     if (!hasDeviceKeys) {
                         removeTile = true;
                     }
+				} else if (id == R.id.supersu_settings) {
+					// Embedding into Settings is supported from SuperSU v1.85 and up
+					boolean supported = false;
+					try {
+						supported = (getPackageManager().getPackageInfo(
+						"eu.chainfire.supersu", 0).versionCode >= 185);
+					} catch (PackageManager.NameNotFoundException e) {
+					}
+					if (!supported) {
+						removeTile = true;
+					}
                 }
 
                 if (UserHandle.MU_ENABLED && UserHandle.myUserId() != 0
