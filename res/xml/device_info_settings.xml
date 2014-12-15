@@ -26,7 +26,8 @@
                 android:title="@string/device_status" 
                 android:summary="@string/device_status_summary_cm">
             <intent android:action="android.intent.action.MAIN"
-                  android:targetPackage="com.android.settings"                	            android:targetClass="com.android.settings.deviceinfo.Status" />
+                  android:targetPackage="com.android.settings"                	            
+                  android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
 
         <!-- Legal Information -->
