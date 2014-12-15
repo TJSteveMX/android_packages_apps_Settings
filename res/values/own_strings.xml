@@ -796,4 +796,8 @@
 	<string name="timeout_1000">1 second</string>
 	<string name="timeout_500">0,5 second</string>
 
+	<!-- Device CPU/MEM info -->
+	<string name="cpu_info">CPU Info</string>
+	<string name="mem_info">MEM info</string>
+
 </resources>
