@@ -126,13 +126,13 @@
         <Preference android:key="device_cpu"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/cpu_info"
-                android:summary="@string/device_info_default"/>
+                android:summary="@string/device_cpu_default"/>
 
         <!-- Device mem info -->
         <Preference android:key="device_memory"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/mem_info"
-                android:summary="@string/device_info_default"/>
+                android:summary="@string/device_mem_default"/>
         
         <!-- OwnROM Build date -->
         <Preference android:key="build_date"

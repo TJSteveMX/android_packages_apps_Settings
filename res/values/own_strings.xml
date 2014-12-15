@@ -795,6 +795,8 @@
 
 	<!-- Device CPU/MEM info -->
 	<string name="cpu_info">CPU Info</string>
-	<string name="mem_info">MEM info</string>
+	<string name="device_cpu_default">ARMv7 Processor rev 10 (v71)</string>
+	<string name="mem_info">Memory info</string>
+	<string name="device_mem_default">750 MB</string>
 
 </resources>
