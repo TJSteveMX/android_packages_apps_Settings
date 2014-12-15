@@ -124,7 +124,6 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
 
-<<<<<<< HEAD
          <!-- Device cpu info -->
         <Preference android:key="device_cpu"
                 style="?android:preferenceInformationStyle"
@@ -137,10 +136,7 @@
                 android:title="@string/mem_info"
                 android:summary="@string/device_info_default"/>
         
-	<!-- Build date -->
-=======
         <!-- OwnROM Build date -->
->>>>>>> 2b71db8e962bf2ba453260cefee9a4d9964ce34a
         <Preference android:key="build_date"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/build_date"
