@@ -21,6 +21,20 @@
                           android:enabled="false"
                           android:layout="@layout/own_logo_row" />
 
+        <!-- System update settings - launches activity -->
+        <PreferenceScreen android:key="system_update_settings"
+                android:title="@string/system_update_settings_list_item_title" 
+                android:summary="@string/system_update_settings_list_item_summary">
+            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS">
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="additional_system_update_settings"
+                          android:title="@string/additional_system_update_settings_list_item_title">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="@string/additional_system_update"
+                    android:targetClass="@string/additional_system_update_menu" />
+        </PreferenceScreen>
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status" 
@@ -92,7 +106,7 @@
                 android:title="@string/model_number"
                 android:summary="@string/device_info_default"/>
 
-        <!-- Mod version -->
+        <!-- OwnROM MOD version -->
         <Preference android:key="mod_version"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/mod_version"
@@ -122,6 +136,7 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
 
+<<<<<<< HEAD
          <!-- Device cpu info -->
         <Preference android:key="device_cpu"
                 style="?android:preferenceInformationStyle"
@@ -135,6 +150,9 @@
                 android:summary="@string/device_info_default"/>
         
 	<!-- Build date -->
+=======
+        <!-- OwnROM Build date -->
+>>>>>>> 2b71db8e962bf2ba453260cefee9a4d9964ce34a
         <Preference android:key="build_date"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/build_date"
