@@ -1196,10 +1196,7 @@ public class SettingsActivity extends Activity
                             PackageManager.FEATURE_PRINTING);
                     if (!hasPrintingSupport) {
                         removeTile = true;
-                    }
-                } else if (id == R.id.superuser_settings) {
-                    if (!DevelopmentSettings.isRootForAppsEnabled()) {
-                        removeTile = true;
+						}
 					} else {
 						// Check if SuperSU is installed
 						int suversion = 0;
