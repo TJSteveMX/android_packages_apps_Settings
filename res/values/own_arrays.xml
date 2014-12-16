@@ -431,20 +431,20 @@
         <item>2</item>
     </string-array>
     
-	<!-- long press back to kill configurable timeout -->
-	<string-array name="kill_app_longpress_timeout_entries">
-		<item>@string/timeout_2000</item>
-		<item>@string/timeout_1500</item>
-		<item>@string/timeout_1000</item>
-		<item>@string/timeout_500</item>
-	</string-array>
+    <!-- long press back to kill configurable timeout -->
+    <string-array name="kill_app_longpress_timeout_entries">
+	<item>@string/timeout_2000</item>
+	<item>@string/timeout_1500</item>
+	<item>@string/timeout_1000</item>
+	<item>@string/timeout_500</item>
+    </string-array>
 
-	<string-array name="kill_app_longpress_timeout_values" translatable="false">
-		<item>2000</item>
-		<item>1500</item>
-		<item>1000</item>
-		<item>500</item>
-	</string-array>
+    <string-array name="kill_app_longpress_timeout_values" translatable="false">
+	<item>2000</item>
+	<item>1500</item>
+	<item>1000</item>
+	<item>500</item>
+    </string-array>
 
     <!--- Navigation bar height -->
     <string-array name="navigation_bar_height_entries" translatable="false">
@@ -497,6 +497,56 @@
         <item>**null**</item>
     </string-array>
 
- </resources>
+    <!-- Listview animation -->
+    <string-array name="listview_animation_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_wave_left</item>
+        <item>@string/listview_wave_right</item>
+        <item>@string/listview_scale</item>
+        <item>@string/listview_alpha</item>
+        <item>@string/listview_stack_top</item>
+        <item>@string/listview_stack_bottom</item>
+        <item>@string/listview_unfold</item>
+        <item>@string/listview_fold</item>
+        <item>@string/listview_translate_left</item>
+        <item>@string/listview_translate_right</item>
+    </string-array>
 
-</resources>
+    <string-array name="listview_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Listview Interpolator -->
+    <string-array name="listview_interpolator_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_accelerate_interpolator</item>
+        <item>@string/listview_decelerate_interpolator</item>
+        <item>@string/listview_accelerate_decelerate_interpolator</item>
+        <item>@string/listview_anticipate_interpolator</item>
+        <item>@string/listview_overshoot_interpolator</item>
+        <item>@string/listview_anticipate_overshoot_interpolator</item>
+        <item>@string/listview_bounce_interpolator</item>
+    </string-array>
+
+    <string-array name="listview_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+ </resources>
