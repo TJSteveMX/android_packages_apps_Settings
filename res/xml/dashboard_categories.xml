@@ -84,11 +84,11 @@
                 android:icon="@drawable/ic_settings_home"
                 />
 
-        <!-- Status bar -->
+        <!-- Own-ifyzations -->
         <dashboard-tile
-                android:id="@+id/status_bar_settings"
-                android:title="@string/status_bar_title"
-                android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
+                android:id="@+id/own_ifyzations_settings"
+                android:title="@string/own_custom_title"
+                android:fragment="com.android.settings.own.OwnIfyzationsSettings"
                 android:icon="@drawable/ic_settings_home"
                 />
 
