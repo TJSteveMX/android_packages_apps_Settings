@@ -19,11 +19,11 @@
  android:title="@string/own_ifyzations_settings_title"
  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- Display settings -->
+    <!-- Status Bar Settings -->
     <PreferenceScreen
-        android:id="@+id/ordisplay_settings"
-        android:title="@string/or_display_settings_title"
-        android:fragment="com.android.settings.own.ORDisplaySettings"/>
+	android:id="@+id/statusbar_settings"
+	android:title="@string/statusbar_settings_title"
+	android:fragment="com.android.settings.own.StatusBarSettings" />
 
     <!-- Misc settings -->
     <PreferenceScreen
@@ -31,5 +31,4 @@
         android:title="@string/ownrom_misc_settings_title"
         android:fragment="com.android.settings.own.Misc"/>
 
-</PreferenceScreen>
 </PreferenceScreen>
