@@ -84,6 +84,14 @@
                 android:icon="@drawable/ic_settings_home"
                 />
 
+		<!-- Own-ifyzations -->
+		<dashboard-tile
+				android:id="@+id/own_ifyzations_settings"
+				android:title="@string/own_ifyzations_settings_title"
+				android:fragment="com.android.settings.own.OwnIfyzationsSettings"
+				android:icon="@drawable/ic_own_ifyzations_teal" 
+				/> 
+
         <!-- Status bar -->
         <dashboard-tile
                 android:id="@+id/status_bar_settings"

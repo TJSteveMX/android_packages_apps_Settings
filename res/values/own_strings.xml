@@ -803,4 +803,7 @@
 	being present in com.android.settings -->
 	<string name="supersu_title" translatable="false">SuperSU</string>
 
+	<!-- Own-ifyzations -->
+	<string name="own_ifyzations_settings_title" translatable="false">Own-Ifyzations</string>
+
 </resources>
