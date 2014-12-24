@@ -84,12 +84,12 @@
                 android:icon="@drawable/ic_settings_home"
                 />
 
-        <!-- Status bar -->
+        <!-- OwnSettings -->
         <dashboard-tile
-                android:id="@+id/status_bar_settings"
-                android:title="@string/status_bar_title"
-                android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
-                android:icon="@drawable/ic_settings_home"
+				android:id="@+id/main_settings"
+				android:title="@string/rr_settings_title"
+				android:fragment="com.android.settings.own.MainSettings"
+				android:icon="@drawable/ic_ic_settings_about_ownrom"
                 />
 
 
@@ -184,7 +184,7 @@
                 android:id="@+id/profile_settings"
                 android:fragment="com.android.settings.profiles.ProfilesSettings"
                 android:title="@string/profiles_settings_title"
-                android:icon="@drawable/ic_settings_profiles"
+                android:icon="@drawable/ic_action_action_perm_identity"
                 />
 
         <!-- Location -->

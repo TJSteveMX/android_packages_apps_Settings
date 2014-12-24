@@ -40,6 +40,7 @@ import com.android.settings.net.DataUsageMeteredSettings;
 import com.android.settings.notification.NotificationSettings;
 import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.notification.ZenModeSettings;
+import com.android.settings.own.MainSettings;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.users.UserSettings;
@@ -86,6 +87,13 @@ public final class SearchIndexableResources {
                         NO_DATA_RES_ID,
                         BluetoothSettings.class.getName(),
                         R.drawable.ic_settings_bluetooth2));
+
+		sResMap.put(MainSettings.class.getName(),
+				new SearchIndexableResource(
+						Ranking.getRankForClassName(MainSettings.class.getName()),
+						NO_DATA_RES_ID,
+						MainSettings.class.getName(),
+						R.drawable.ic_settings_interface));
 
         sResMap.put(SimSettings.class.getName(),
                 new SearchIndexableResource(

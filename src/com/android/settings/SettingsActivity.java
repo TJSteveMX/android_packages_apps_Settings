@@ -102,6 +102,7 @@ import com.android.settings.notification.NotificationAccessSettings;
 import com.android.settings.notification.NotificationSettings;
 import com.android.settings.notification.NotificationStation;
 import com.android.settings.notification.ZenModeSettings;
+import com.android.settings.own.MainSettings;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.privacyguard.PrivacyGuardPrefs;
@@ -239,6 +240,7 @@ public class SettingsActivity extends Activity
             R.id.print_settings,
             R.id.nfc_payment_settings,
             R.id.home_settings,
+            R.id.main_settings,
             R.id.dashboard,
             R.id.privacy_settings_cyanogenmod
     };
@@ -261,6 +263,7 @@ public class SettingsActivity extends Activity
             UserDictionaryList.class.getName(),
             UserDictionarySettings.class.getName(),
             HomeSettings.class.getName(),
+            MainSettings.class.getName(),
             DisplaySettings.class.getName(),
             DeviceInfoSettings.class.getName(),
             ManageApplications.class.getName(),

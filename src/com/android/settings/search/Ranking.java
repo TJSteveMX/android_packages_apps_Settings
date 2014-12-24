@@ -38,6 +38,7 @@ import com.android.settings.net.DataUsageMeteredSettings;
 import com.android.settings.notification.NotificationSettings;
 import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.notification.ZenModeSettings;
+import com.android.settings.own.MainSettings;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.users.UserSettings;
@@ -59,7 +60,8 @@ public final class Ranking {
     public static final int RANK_DATA_USAGE = 4;
     public static final int RANK_WIRELESS = 5;
     public static final int RANK_HOME = 6;
-    public static final int RANK_DISPLAY = 7;
+    public static final int RANK_OWN = 7;
+    public static final int RANK_DISPLAY = 8;
     public static final int RANK_NOTIFICATIONS = 9;
     public static final int RANK_MEMORY = 10;
     public static final int RANK_POWER_USAGE = 11;
@@ -104,6 +106,9 @@ public final class Ranking {
 
         // Home
         sRankMap.put(HomeSettings.class.getName(), RANK_HOME);
+        
+        // OwnROM
+		sRankMap.put(MainSettings.class.getName(), RANK_OWN);
 
         // Display
         sRankMap.put(DisplaySettings.class.getName(), RANK_DISPLAY);
