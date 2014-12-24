@@ -87,7 +87,7 @@
         <!-- OwnSettings -->
         <dashboard-tile
 				android:id="@+id/main_settings"
-				android:title="@string/rr_settings_title"
+				android:title="@string/own_settings_title"
 				android:fragment="com.android.settings.own.MainSettings"
 				android:icon="@drawable/ic_ic_settings_about_ownrom"
                 />
