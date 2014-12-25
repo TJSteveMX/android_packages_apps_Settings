@@ -836,7 +836,7 @@
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
 
 	<!-- Lockscreen Shortcuts -->
-	<string name="lockscreen_shortcuts_title"><i><b>Shortcuts</b></i></string>
+	<string name="lockscreen_shortcuts_title">Shortcuts</string>
 	<string name="lockscreen_shortcuts_summary">View or change custom lock screen shortcuts</string>
 	<string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
 	<string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
@@ -938,4 +938,26 @@
 	<string name="shortcut_action_media_previous">Music - previous track</string>
 	<string name="shortcut_action_wake_device">Wake up device</string>
 
+	<!-- LCD Density changer -->
+	<string name="dpi">DPI</string>
+	<string name="su_dialog_error_title">Warning</string>
+	<string name="su_dialog_error_message">An error occurred.\n\nPlease check for root access. To activate go into superuser settings and enable root access.</string>
+	<string name="lcd_density_title">LCD Density</string>
+	<string name="lcd_density_category">Options</string>
+	<string name="follow_through_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device</string>
+	<string name="stock_density_title">Change to stock values</string>
+	<string name="stock_density_summary">Tablets generally use 160 dpi while high end devices use 320 or 480 dpi. Older devices use 240 dpi</string>
+	<string name="stock_density_changed_summary">"Density set to: "</string>
+	<string name="reboot_title">Reboot your device</string>
+	<string name="reboot_summary">You need to reboot your device for your change to take effect</string>
+	<string name="custom_density_title">Change to whatever you like</string>
+	<string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
+	<string name="custom_density">custom</string>
+	<string name="set_custom_density_title">Set custom density</string>
+	<string name="set_custom_density_set">Set</string>
+	<string name="custom_density_dialog_title">WARNING!</string>
+	<string name="custom_density_dialog_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device"</string>
+	<string name="custom_density_dialog_button_got">Got it!</string>
+	<string name="custom_density_dialog_button_reboot">Reboot now</string>
+ 
 </resources>

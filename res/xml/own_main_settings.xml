@@ -19,6 +19,7 @@
 	<PreferenceCategory
 		android:title="@string/own_cat_title">
 
+		<!-- StatusBar Settings -->
 		<PreferenceScreen
 			android:id="@+id/status_bar_settings"
 			android:title="@string/status_bar_title"
@@ -26,12 +27,21 @@
 			android:icon="@drawable/ic_hardware_keyboard_tab"
 			/>
 
+		<!-- Lockscreen Shortcuts -->
 		<PreferenceScreen
 			android:id="@+id/lock_settings"
 			android:title="@string/own_lockscreen_title"
 			android:fragment="com.android.settings.own.LockSettings"
 			android:icon="@drawable/ic_own_locked_tint"
 			/> 
+
+		<!-- Density Changer -->
+		<PreferenceScreen
+			android:key="density_changer"
+			android:title="@string/lcd_density_title"
+			android:fragment="com.android.settings.own.Density"
+			android:icon="@drawable/ic_image_blur_on" 
+			/>
 
 	</PreferenceCategory>
 
