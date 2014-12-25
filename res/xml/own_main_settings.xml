@@ -27,12 +27,20 @@
 			android:icon="@drawable/ic_hardware_keyboard_tab"
 			/>
 
-		<!-- Lockscreen Shortcuts -->
+		<!-- Lockscreen Settings -->
 		<PreferenceScreen
 			android:id="@+id/lock_settings"
 			android:title="@string/own_lockscreen_title"
 			android:fragment="com.android.settings.own.LockSettings"
 			android:icon="@drawable/ic_own_locked_tint"
+			/> 
+		
+		<!-- Misc Settings -->
+		<PreferenceScreen
+			android:id="@+id/own_misc_settings"
+			android:title="@string/misc_settings_title"
+			android:fragment="com.android.settings.own.MiscSettings"
+			android:icon="@drawable/ic_hardware_keyboard_tab"
 			/> 
 
 		<!-- Density Changer -->

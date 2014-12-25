@@ -386,6 +386,7 @@
     <string name="own_settings_title">OwnSettings</string>
     <string name="own_cat_title">Categories</string>
     <string name="own_lockscreen_title">Lock Screen</string>
+    <string name="misc_settings_title">Misc</string>
     <string name="lock_clock_title">Lock cLock</string>
     <string name="lock_clock_summary">Lock cLock Settings</string>
     
@@ -960,4 +961,22 @@
 	<string name="custom_density_dialog_button_got">Got it!</string>
 	<string name="custom_density_dialog_button_reboot">Reboot now</string>
  
+	<!-- Toast animations -->
+	<string name="toast_animation_title">Toast animations</string>
+	<string name="toast_animation_summary">Select and preview system toast animation</string>
+	<string name="toast_none_animation">None</string>
+	<string name="toast_default_animation">Default</string>
+	<string name="toast_fade_animation">Fade animation</string>
+	<string name="toast_SlideRight_animation">Slide right</string>
+	<string name="toast_SlideLeft_animation">Slide left</string>
+	<string name="toast_Xylon_animation">Xylon animation</string>
+	<string name="toast_Toko_animation">Toko animation</string>
+	<string name="toast_Tn_animation">Tn animation</string>
+	<string name="toast_Honami_animation">Honami animation</string>
+	<string name="toast_FastFade_animation">Fast fade</string>
+	<string name="toast_GrowFade_animation">Grow fade</string>
+	<string name="toast_GrowFadeCenter_animation">Grow fade center</string>
+	<string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
+	<string name="toast_Translucent_animation">Translucent animation</string>
+
 </resources>
